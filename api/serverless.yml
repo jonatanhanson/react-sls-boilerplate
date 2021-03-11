@@ -1,0 +1,28 @@
+service: items
+
+plugins:
+  - serverless-bundle
+  - serverless-pseudo-parameters
+  - serverless-offline
+  - serverless-dynamodb-local
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  profile: sandbox
+  stage: dev
+  region: eu-north-1
+  endpointType: regional
+  logs:
+    restApi: true
+  tracing:
+    apiGateway: true
+    lambda: true
+
+functions:
+  getItemList:
+    handler: src/lambdas/getItemList.handler
+    events:
+      - http:
+          method: GET
+          path: /items
