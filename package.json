@@ -1,0 +1,20 @@
+{
+  "name": "react-sls-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate with React and Serverless setup.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "cd client && npm install",
+    "start": "cd client && yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonatanhanson/react-sls-boilerplate.git"
+  },
+  "author": "Jonatan Hanson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonatanhanson/react-sls-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jonatanhanson/react-sls-boilerplate#readme"
+}
