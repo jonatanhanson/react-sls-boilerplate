@@ -4,8 +4,12 @@
   "description": "Boilerplate with React and Serverless setup.",
   "main": "index.js",
   "scripts": {
-    "preinstall": "cd client && npm install",
-    "start": "cd client && yarn start"
+    "preinstall": "cd client && yarn install",
+    "postinstall": "cd api && yarn install",
+    "start-client": "cd client && yarn start",
+    "start-server": "cd api && sls offline",
+    "db-setup": "cd api && sls dynamodb install",
+    "setup": "./setup.sh"
   },
   "repository": {
     "type": "git",
