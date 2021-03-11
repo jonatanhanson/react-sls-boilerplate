@@ -7,11 +7,15 @@ Installing the Serverless Framework
 
 
 Install dependencies
+
 `yarn`
 
 
 Run api locally
+
 `yarn start-server`
 
+
 Run client locally
+
 `yarn start-client`
