@@ -13,7 +13,7 @@
 <h3>React Serverless Boilerplate</h3>
 
   Boilerplate to quickly get started with development of web apps and APIs.
-  Includes: React, Serverless API, Eslint, Prettier and  Helsingborg Stad Styleguide.
+  Including setup of: React, Serverless API, Eslint, Prettier and Helsingborg Stad Styleguide.
 
 
 
