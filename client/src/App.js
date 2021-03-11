@@ -5,19 +5,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <nav class="c-navbar">
-        <div class="c-navbar__logo">
-          <a href="/">
-            <figure id="604a0aa360b69" class="c-image" data-uid="604a0aa360b64">
-              <img src={logo} alt="logo" />
-            </figure>
-          </a>
-        </div>
-      </nav>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </header>
 
       <div className="container">
         <Card>
-          Card content
+          Content
         </Card>
       </div>
     </div>
